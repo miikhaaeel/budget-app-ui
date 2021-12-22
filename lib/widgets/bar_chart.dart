@@ -19,7 +19,8 @@ class BarChart extends StatelessWidget {
         const SizedBox(
           height: 2,
         ),
-        Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             IconButton(
               onPressed: () {},
@@ -39,9 +40,13 @@ class BarChart extends StatelessWidget {
               icon: const Icon(
                 Icons.arrow_forward,
               ),
-            )
+            ),
           ],
-        )
+        ),
+        const SizedBox(
+          height: 30,
+        ),
+        Row()
       ],
     );
   }
