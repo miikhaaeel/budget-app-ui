@@ -5,6 +5,16 @@ import 'package:budget_app_ui/models/expense_model.dart';
 
 final rand = Random();
 
+final List<String> daysOfWeek = [
+  'Su',
+  'Mo',
+  'Tu',
+  'We',
+  'Th',
+  'Fr',
+  'Sa',
+];
+
 final List<double> weeklySpending = [
   rand.nextDouble() * 100,
   rand.nextDouble() * 100,
