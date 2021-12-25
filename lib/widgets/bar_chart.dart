@@ -83,6 +83,7 @@ class BarChart extends StatelessWidget {
   }
 }
 
+
 class Bar extends StatelessWidget {
   final String? label;
   final double? amountSpent;
