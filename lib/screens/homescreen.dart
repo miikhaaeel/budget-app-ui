@@ -44,7 +44,7 @@ class HomeScreen extends StatelessWidget {
             delegate: SliverChildBuilderDelegate(
               (context, index) {
                 return Container(
-                  margin: const EdgeInsets.all(10.0),
+                  margin: const EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 10.0),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10.0),
                     color: Colors.white,
@@ -59,7 +59,7 @@ class HomeScreen extends StatelessWidget {
                   child: BarChart(expenses: weeklySpending),
                 );
               },
-              childCount: 1,
+              childCount: 1 + categories.length,
             ),
           )
         ],
