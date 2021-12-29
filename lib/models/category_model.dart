@@ -5,5 +5,5 @@ class Category {
   final double? maxAmount;
   final List<Expense>? expenses;
 
-  Category({this.name, this.maxAmount, this.expenses});
+  Category({ this.name, this.maxAmount, this.expenses});
 }
