@@ -24,7 +24,6 @@ Star⭐ the repo if you like what you see😉.
 |<img src="ss/6.png" width="400">|<img src="ss/7.png" width="400">|
 
 
-
 ## ✨ Requirements
 * Any Operating System (ie. MacOS X, Linux, Windows)
 * Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
