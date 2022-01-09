@@ -6,7 +6,6 @@ Simple Budget App user interface.
 Star⭐ the repo if you like what you see😉.
 [![Twitter Follow](https://img.shields.io/twitter/follow/Mikhael.svg?style=social)](https://twitter.com/mii_khael)
 
-
 ## 📸 ScreenShots
 
 <img src="ss/1.png"/>
